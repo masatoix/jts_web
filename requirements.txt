@@ -1,4 +1,5 @@
 streamlit==0.73.1
 plotly-express==0.4.1
+plotly
 pandas
 openxpyxl
