@@ -1,9 +1,6 @@
 import streamlit as st
 import pandas as pd
-import plotly as px
-import openpyxl
-import plotly
-
+import plotly.express as px
 
 input_file_cnd = 'output/condition/'
 input_file_phy = 'output/physical/'
