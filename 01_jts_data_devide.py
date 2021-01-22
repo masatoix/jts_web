@@ -76,36 +76,36 @@ def extract_wgt(FILE_PATH, g_name):
 
 for g_name in TA_NAME:
     df = extract_exetra(FILE_PATH, g_name)
-    df.to_excel(OUTPUT_exetra+g_name+"_training"+".xlsx", index=0)
+    df.to_excel(OUTPUT_exetra+g_name+"_training"+".xlsx", index=False)
 
 # 02: コンディション
 
 for g_name in TA_NAME:
     df = extract_cdtn(FILE_PATH, g_name)
-    df.to_excel(OUTPUT_cdtn+g_name+"_condition"+".xlsx", index=0)
+    df.to_excel(OUTPUT_cdtn+g_name+"_condition"+".xlsx", index=False)
 
 # 03: フィジカル
 
 for g_name in TA_NAME:
     df = extract_pscl(FILE_PATH, g_name)
-    df.to_excel(OUTPUT_pscl+g_name+"_physical"+".xlsx", index=0)
+    df.to_excel(OUTPUT_pscl+g_name+"_physical"+".xlsx", index=False)
 
 # 04: 測定
 
 for g_name in TA_NAME:
     df = extract_msr(FILE_PATH, g_name)
-    df.to_excel(OUTPUT_msr+g_name+"_measure"+".xlsx", index=0)
+    df.to_excel(OUTPUT_msr+g_name+"_measure"+".xlsx", index=False)
 
 # 05: トレーニング頻度
 
 for g_name in TA_NAME:
     df = extract_frq(FILE_PATH, g_name)
-    df.to_excel(OUTPUT_frq+g_name+"_frequecy"+".xlsx", index=0)
+    df.to_excel(OUTPUT_frq+g_name+"_frequecy"+".xlsx", index=False)
 
 # 06: ウエイト
 
 for g_name in TA_NAME:
     df = extract_wgt(FILE_PATH, g_name)
-    df.to_excel(OUTPUT_wgt+g_name+"_weight"+".xlsx", index=0)
+    df.to_excel(OUTPUT_wgt+g_name+"_weight"+".xlsx", index=False)
 
 
