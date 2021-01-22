@@ -48,7 +48,7 @@ for file_path in file_paths:
 
 # %%
 df = df.iloc[:, [0, 1, 3, 5, 7, 9, 11, 13, 15, 17, 19]]
-df.to_excel(output_file+'jump.xlsx', index=0)
+df.to_excel(output_file+'jump.xlsx', index=False)
 
 
 # %%
