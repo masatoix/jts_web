@@ -1,6 +1,6 @@
 import pandas as pd
 
-FILE_PATH = "jts_physical_report.xlsx"
+FILE_PATH = 'jts_physical_report.xlsx'
 
 OUTPUT_exetra = "output/exetra/"
 OUTPUT_cdtn = "output/condition/"
